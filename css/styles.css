@@ -1,16 +1,60 @@
+:root {
+    --blanco: #fff;
+    --oscuro: #212121;
+    --amarillo: #ffc107;
+    --primario: #26939f;
+    --gris: #757577;
+}
+
+
 html {
     font-size: 62.5%;
 }
 
+
 body {
     font-size: 16px;
 }
+
 
 .my-title {
     text-align: center;
     font-size: 3.8rem;
 }
 
+
 .my-title span {
     font-size: 2rem;
+}
+
+
+.nav-bg {
+    background-color: var(--oscuro);
+}
+
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+.navegacion-principal a:hover {
+    background-color: var(--amarillo);
+    color: var(--oscuro);
+}
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
 }
