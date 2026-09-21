@@ -113,5 +113,27 @@ h1, h2, h3 {
 
 .ubicacion {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    gap: 2rem;
+    color: var(--blanco);
+}
+
+.ubicacion svg {
+    width: 3.4rem;
+    height: 3.4rem;
+    stroke: var(--blanco);
+}
+
+/* Botón */
+
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
 }
